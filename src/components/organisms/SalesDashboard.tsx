@@ -1,10 +1,10 @@
 "use client";
 import { useState } from "react";
 import { salesByYear, years } from "@/data/sales";
-import ButtonGroup from "../molecules/buttongroup";
-import ThresholdInput from "../molecules/thresholdinput";
-import StatCard from "../atoms/statcard";
-import SalesChart, { ChartType } from "./saleschart";
+import ButtonGroup from "../molecules/ButtonGroup";
+import ThresholdInput from "../molecules/ThresholdInput";
+import StatCard from "../atoms/StatCard";
+import SalesChart, { ChartType } from "./SalesChart";
 
 export default function SalesDashboard() {
   const [year, setYear] = useState(2024);
