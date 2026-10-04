@@ -1,4 +1,4 @@
-import Button from "../atoms/buttom";
+import Button from "../atoms/Button";
 
 type Props<T extends string | number> = {
   label: string; options: T[]; value: T; onChange: (v: T) => void;
