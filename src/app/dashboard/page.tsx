@@ -1,4 +1,4 @@
-import DashboardTemplate from "@/components/templates/dashboardtemplates";
+import DashboardTemplate from "@/components/templates/DashboardTemplate";
 import SalesDashboard from "@/components/organisms/salesdashboard";
 
 export default function DashboardPage() {
